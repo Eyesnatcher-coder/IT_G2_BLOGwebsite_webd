@@ -34,7 +34,7 @@ app.get('/',(req,res) => {
     imageData.exec(function(err,data){
         if(err) throw err;
 
-        res.render('home',{records:data})
+        res.render("home",{records:data})
     })
 })
 
